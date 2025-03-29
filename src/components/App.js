@@ -1,11 +1,12 @@
-
-import React from "react";
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
+// import React from "react";
+import React, { useState } from "react";
 import './../styles/App.css';
-// import "./App.css";
-// import React, { useState } from "react";
-// import "./App.css";
 
 const App = () => {
+  return (
+ const [name, setName] = useState("");  // ✅ Define the state variables
+
   return (
     <div className="app-container">
       {/* Input Field */}
@@ -13,7 +14,7 @@ const App = () => {
         type="text"
         placeholder="Enter your name"
         value={name}
-        onChange={(e) => setName(e.target.value)}
+        onChange={(e) => setName(e.target.value)}  // ✅ This will now work
         className="input-field"
       />
 
@@ -24,3 +25,4 @@ const App = () => {
 }
 
 export default App
+✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅✅
