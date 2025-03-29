@@ -1,1 +1,26 @@
 
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .input-field {
+    padding: 10px;
+    width: 250px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .greeting {
+    color: #4caf50;
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
